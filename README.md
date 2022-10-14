@@ -12,5 +12,8 @@ https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_01-simple-flask-ap
 - Exp_02 - Render a simple html page<br>
 https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_02-render-simple-html-page
 
+- Exp_03 - Learn navigation between pages<br>
+https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_03-test-navigation-between-pages
+
 
 <br>
