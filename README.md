@@ -20,3 +20,7 @@ https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_04-create-simple-f
 
 
 <br>
+
+## Lesson Learned
+
+My end goal was to create a flask desktop application on Mac. This failed when using Pyinstaller, possibly because of issues relating to Mac OSX Big Sur. Flaswebgui works great. However, I found that creating desktop apps is not a smooth and easy process (for someone like me who is not a programming expert) because it's dependant on the local operating system. This is not an issue with web apps beacuse they run on a server where you can control the operating system that's installed. However, web servers cost money to rent. Also, running image based machine learning apps over the web can be slow.
