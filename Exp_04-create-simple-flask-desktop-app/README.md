@@ -6,10 +6,10 @@
 
 Create a simple flask desktop app using flaskwebgui. This involves converting the Exp_03 web app into a desktop app. This experiment does not include using Pyinstaller to create a .exe file
 
-## Notes
+## Issues
 
 1- The window width and height (when the app is launcehed) can't be changed. This is a known issue. However, the window can still be resized manually.<br>
-2- Flaskwebgui is brilliantly simple to use.
+2- When I run app.py from inside Pycharm the app desktop window launches and everything works fine. However, when I run app.py from the mac command line the app desktop window does not open.
 
 <br>
 
