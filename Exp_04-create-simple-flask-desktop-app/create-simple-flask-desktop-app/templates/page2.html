@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+</head>
+
+    <body>
+
+    <a href="{{ url_for('home') }}">go to homepage</a>
+
+    <h1>Page 2</h1>
+    <p>This is page 2.</p>
+
+    </body>
+</html>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+
+  function keep_alive_server() {
+    fetch(document.location + "flaskwebgui-dumb-request-for-middleware-keeping-the-server-online", {
+      method: 'GET',
+      cache: 'no-cache'
+    })
+      .then(res => { })
+      .catch(err => { })
+  }
+
+  try {
+    setInterval(keep_alive_server, 3 * 1000)()
+  } catch (error) {
+    // doesn't matter handled by middleware
+  }
+
+})
+</script>
