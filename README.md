@@ -15,5 +15,8 @@ https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_02-render-simple-h
 - Exp_03 - Learn navigation between pages<br>
 https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_03-test-navigation-between-pages
 
+- Exp_04 - Create a simple flask desktop app using flaskwebgui<br>
+https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_04-create-simple-flask-desktop-app
+
 
 <br>
