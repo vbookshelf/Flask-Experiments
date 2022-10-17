@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+</head>
+
+    <body>
+
+    <a href="{{ url_for('home') }}">go to hello page</a>
+
+    <!--
+    Form 1:
+    This form sends info via GET.
+    When the submit button is pressed,
+    the info is sent in the url to the "/process_form1_data" endpoint.
+    The Python code in the "/process_form1_data" endpoint
+    extracts the info from the url.
+
+    1- Test sending back a 'Thank you your info has been received'
+    response to the same page.
+    2- Test sending back html in the response that will go between two divs.
+    -->
+    <form action="/process_form1_data">
+        <div>
+            <label for="title">Form 1 Title</label><br>
+            <input type="text" name="title"/>
+        </div>
+
+        <div>
+            <label for="content">Content</label><br>
+            <textarea name="content"></textarea>
+        </div>
+
+        <div>
+            <input type="submit"/>
+        </div>
+    </form>
+
+    </body>
+</html>
+
+
+
