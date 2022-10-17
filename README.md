@@ -24,6 +24,9 @@ https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_05-send-form-data-
 - Exp_06 - Send form data with POST<br>
 https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_06-send-form-data-with-POST
 
+- Exp_07 - How to add CSS, Javascript and image folders when using Flask<br>
+https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_07-how-to-add-css-and-js-folders
+
 
 <br>
 
