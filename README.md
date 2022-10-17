@@ -21,6 +21,9 @@ https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_04-create-simple-f
 - Exp_05 - Send form data with GET<br>
 https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_05-send-form-data-with-get
 
+- Exp_06 - Send form data with POST<br>
+https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_06-send-form-data-with-POST
+
 
 <br>
 
