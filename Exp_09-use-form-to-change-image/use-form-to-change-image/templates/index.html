@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+</head>
+
+    <body>
+
+    <!-- Display the image here -->
+    <p>{{ any_name }}</p>
+	<img src="/static/tb_all_images/{{ any_name }}"  height=300 alt="chest x-ray image">
+
+
+    <!-- This is the form to input the blog post info.
+    When this form is submitted the above should update.-->
+    <form action="/process_form1_data" method="POST">
+        <div>
+            <label for="title">Enter Item num 0-5</label><br>
+            <input type="text" name="item_num"/>
+        </div>
+
+
+        <div>
+            <input type="submit"/>
+        </div>
+    </form>
+
+    </body>
+</html>
