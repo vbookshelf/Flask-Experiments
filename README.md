@@ -27,6 +27,9 @@ https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_06-send-form-data-
 - Exp_07 - How to add CSS, Javascript and image folders when using Flask<br>
 https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_07-how-to-add-css-and-js-folders
 
+- Exp_08 - Update content that's on the same page as the input form<br>
+https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_08-update-content-on-same-page-as-form
+
 
 <br>
 
