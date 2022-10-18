@@ -33,6 +33,9 @@ https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_08-update-content-
 - Exp_09 - Use a form input to change the image that's displayed<br>
 https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_09-use-form-to-change-image/use-form-to-change-image
 
+- Exp_10 - Implement janderson simple ajax template that works with flask<br>
+https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_10-implement-janderson-simple-ajax-templet
+
 
 <br>
 
