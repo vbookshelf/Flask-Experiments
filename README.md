@@ -36,6 +36,10 @@ https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_09-use-form-to-cha
 - Exp_10 - Implement janderson simple ajax template that works with flask<br>
 https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_10-implement-janderson-simple-ajax-templet
 
+Exp_11 - Working ajax flask jquery request response example template<br>
+[Good reference for future projects.]<br>
+https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_11-working-ajax-flask-request-response-example-template
+
 
 <br>
 
