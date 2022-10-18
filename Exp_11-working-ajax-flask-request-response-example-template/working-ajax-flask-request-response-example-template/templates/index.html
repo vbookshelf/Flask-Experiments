@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Ajax</title>
+</head>
+
+<body>
+    <h1>This is a home page.</h1>
+
+    <button onclick="performPost()">Perform post</button>
+
+    <div id="div1"><h2>Let jQuery AJAX Change This Text</h2></div>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script>
+
+    function performPost() {
+
+        // Write something to the console. Note this is the
+        // browser console and not the python console.
+        console.log('Hello');
+
+        // There are more arguments that can be
+        // included in the $.ajax function.
+
+        $.ajax({
+        type: "POST",
+        url: "{{ url_for('create_file') }}", // We send the data to this endpoint.
+        data: {'name': 'Rolf'}, // This is the data we want to send.
+        success: function(result){
+                  // This is the jquery instruction to insert the response into the html.
+                  // Here this response (result) is the 'name' the endpoint sends.
+                  // We can change this to place the response in various places.
+                  // We could also jsonify the data before sending,
+                  // and then use result.name
+                  $("#div1").html(result);
+                  }
+
+         }) // close $.ajax
+    } // close performPost function
+
+
+</script>
+
+</html>
