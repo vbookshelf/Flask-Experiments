@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+</head>
+
+    <body>
+
+    <!-- Display the image here -->
+    <div id="div1">
+
+        <p>MCUCXR_0301_1.png</p>
+
+	    <img src="/static/tb_all_images/MCUCXR_0301_1.png"  height=300>
+
+    </div>
+
+    <br>
+
+    <button onclick='getPrevImage(count)'>&#10094; Prev</button>
+
+	<button onclick='getNextImage(count)'>Next &#10095;</button>
+
+    </body>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script>
+
+// What is this JS code doing?
+// We create a JS variable called count. Each time a button
+// is clicked that count is either increased or decreased.
+// When a button is clicked the count is sent to the flask endpoint.
+// Flasks sends back html code containing the image_id that is associated with the count.
+// This htnl code replaces the current html code inside the div. In this way
+// a new image gets displayed each time a button is clicked.
+
+// These are global variables.
+// When these values are changed inside a function,
+// the global variable is also changed.
+var count = 0;
+var num_images = 5;
+
+////////////
+// These are JS functions to increase or decrease the count.
+////////////
+
+function increaseCount() {
+
+    if (count < num_images) {
+        count = count + 1;
+    } else {
+        // If the count is at the last image then don't increase the count.
+        count = num_images;
+    }
+}
+
+
+function decreaseCount() {
+    if (count == 0) {
+			count = 0;
+		} else {
+			count = count - 1;
+		}
+}
+
+
+
+////////////
+// These are the two Ajax functions that are activated when
+// a button is clicked.
+////////////
+
+
+function getNextImage(count) {
+
+    increaseCount();
+
+    $.ajax({
+    type: "POST",
+    url: "{{ url_for('process_ajax') }}",
+    data: {'image_num': count},
+    success: function(result){
+              $("#div1").html(result);
+              }
+
+     })
+}
+
+
+function getPrevImage(count) {
+
+    decreaseCount();
+
+    $.ajax({
+    type: "POST",
+    url: "{{ url_for('process_ajax') }}",
+    data: {'image_num': count},
+    success: function(result){
+              $("#div1").html(result);
+              }
+
+     })
+}
+
+
+</script>
+</html>
