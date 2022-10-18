@@ -40,9 +40,14 @@ https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_10-implement-jande
 [Good reference for future projects.]<br>
 https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_11-working-ajax-flask-request-response-example-template
 
+- Exp_12 - Change displayed images using flask, ajax and js<br>
+https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_12-change-displayed-images-using-flask-ajax-and-js/change-displayed-images-using-flask-ajax-and-js
+
 
 <br>
 
 ## Lessons Learned
 
 1- My end goal was to create a flask desktop application on Mac. This failed when using Pyinstaller, possibly because of issues relating to Mac OSX Big Sur. Flaswebgui works great. However, I found that creating desktop apps is not a smooth and easy process (for someone like me who is not a programming expert) because it's dependant on the local operating system. This is not an issue with web apps beacuse they run on a server where you can control the operating system that's installed. However, web servers cost money to rent. Also, running image based machine learning apps over the web can be slow.
+
+2- Flask can work in the same way as php when using ajax. See exp_12. Therefore, it's possible to change php code to flask code.
