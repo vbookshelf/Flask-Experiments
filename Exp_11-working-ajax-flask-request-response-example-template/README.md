@@ -5,9 +5,10 @@
 
 ## Objectives
 
-- Send a request to a flask endpoint using jquery.
+- Send a onclick request to a flask endpoint using jquery.
 - Receive the response using jquery.
 - Display the response on the page.
+- Don't use a form.
 
 <br>
 
