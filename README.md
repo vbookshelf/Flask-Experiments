@@ -55,6 +55,9 @@ https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_15-upload-multiple
 - Exp_16 - Flask file uploading with secure file name and other checks<br>
 https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_16-File-uploading-incl-secure-filename-and-other-checks
 
+- Exp_17 - How to run a flask app from python<br>
+https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_17-how-to-run-flask-from-python
+
 
 <br>
 
