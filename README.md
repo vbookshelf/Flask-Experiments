@@ -46,6 +46,9 @@ https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_12-change-displaye
 - Exp_13 - Create a web flask web app that uses ajax, css and javascript<br>
 https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_13-create-web-app-using-flask-ajax-css-js
 
+- Exp_14 - Simple code to upload one file with flask<br>
+https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_14-simple-uploading-one-file-with-flask
+
 <br>
 
 ## Lessons Learned
