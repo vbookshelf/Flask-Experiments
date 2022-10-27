@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+</head>
+
+    <body>
+
+    <h1>Hello</h1>
+    <p>Only one file can be uploaded.</p>
+
+    <div>
+        <!-- "/upload" refers the flask endpoint called "upload" -->
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="my_file">
+            <input type="submit" value="upload">
+        </form>
+
+    </div>
+
+    </body>
+</html>
