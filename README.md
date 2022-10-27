@@ -52,6 +52,10 @@ https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_14-simple-uploadin
 - Exp_15 - Upload multiple files with flask<br>
 https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_15-upload-multiple-files-with-flask
 
+- Exp_16 - Flask file uploading with secure file name and other checks<br>
+https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_16-File-uploading-incl-secure-filename-and-other-checks
+
+
 <br>
 
 ## Lessons Learned
