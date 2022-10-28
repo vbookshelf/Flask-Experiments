@@ -58,6 +58,9 @@ https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_16-File-uploading-
 - Exp_17 - How to run a flask app from python<br>
 https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_17-how-to-run-flask-from-python
 
+- Exp_18 - Upload one file with Ajax<br>
+https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_18-upload-one-file-with-ajax
+
 
 <br>
 
