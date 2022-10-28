@@ -61,6 +61,9 @@ https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_17-how-to-run-flas
 - Exp_18 - Upload one file with Ajax<br>
 https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_18-upload-one-file-with-ajax
 
+- Exp_19 - Upload multiple files with Ajax<br>
+https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_19-upload-multiple-files-with-ajax
+
 
 <br>
 
