@@ -64,6 +64,9 @@ https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_18-upload-one-file
 - Exp_19 - Upload multiple files with Ajax<br>
 https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_19-upload-multiple-files-with-ajax
 
+- Exp_20 - How to create a virtual environment on Mac<br>
+https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_20-how-to-create-a-virtual-env-on-mac
+
 
 <br>
 
