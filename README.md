@@ -67,6 +67,9 @@ https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_19-upload-multiple
 - Exp_20 - How to create a virtual environment on Mac<br>
 https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_20-how-to-create-a-virtual-env-on-mac
 
+- Exp21 - How to get the x and y coordinates of a mouse click on an image<br>
+https://github.com/vbookshelf/Flask-Experiments/tree/main/Exp_21-get-coords-of-mouse-click-on-image/get-coords-of-mouse_click-on-image
+
 
 <br>
 
