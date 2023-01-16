@@ -1,0 +1,106 @@
+<!--
+Ref:
+
+1- Tutorial
+https://www.youtube.com/watch?v=Ybb-JFjf7m8
+
+2- Javascript mouse click coordinates for image
+https://stackoverflow.com/questions/34867066/javascript-mouse-click-coordinates-for-image
+
+-->
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Get coordinates of mouse click on image</title>
+
+
+</head>
+
+<body>
+
+	<div>
+		<img id="pointer_div" onclick="get_click_coords(event)" src="/static/assets/image7.png" height="580">
+		<h3>Click anywhere on the image. The x and y coordinates, and the resized image height and width will appear below.</h3>
+	</div>
+
+
+	<div id="div1">
+		<h2>x</h2>
+	</div>
+
+	<div id="div2">
+		<h2>y</h2>
+	</div>
+
+	<div id="div3">
+		<h2>display h</h2>
+	</div>
+
+	<div id="div4">
+		<h2>display w</h2>
+	</div>
+	
+	
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script>
+
+	// This function uses Ajax to send data to app.py and
+	// receive the response.
+	function get_click_coords(event) {
+
+		// The origin (0, 0) for the coordinates is in the top left
+		// corner of the image.
+
+		// Get the x coordinate
+		pos_x = event.offsetX ? (event.offsetX) : event.pageX - document.getElementById("pointer_div").offsetLeft;
+
+		// Get the y coordinate
+		pos_y = event.offsetY ? (event.offsetY) : event.pageY - document.getElementById("pointer_div").offsetTop;
+
+		// Get the client side height and width of the displayed image.
+		// This refers to the resized image that's displayed on the page.
+		// Note: The coords we get when we click on the image
+		// are relative to this client side image size.
+		image_display_h = document.getElementById("pointer_div").clientHeight;
+		image_display_w = document.getElementById("pointer_div").clientWidth;
+
+		// Get the actual height and width of the image.
+		// This is the actual size of the image that was submitted by the user.
+		image_h = document.getElementById("pointer_div").naturalHeight;
+		image_w = document.getElementById("pointer_div").naturalWidth;
+
+		console.log(image_display_h);
+		console.log(image_display_w);
+
+		//alert(pos_x + " " + pos_y);
+
+		// Send the info to the app.py file and get the response.
+		// The endpoint to which we send the info is named: process_info
+		$.ajax({
+				type: "POST",
+				url: "{{ url_for('process_info') }}",
+				data: {'pos_x': pos_x, 'pos_y': pos_y, 'image_display_h': image_display_h, 'image_display_w': image_display_w},
+				success: function(result){
+
+							// Show the response in the console
+							console.log(result);
+
+							// Display the response on the page
+							$("#div1").html(result.pos_x);
+							$("#div2").html(result.pos_y);
+							$("#div3").html(result.image_display_h);
+							$("#div4").html(result.image_display_h);
+						  }
+		})
+	}
+</script>
+
+</html>
+
+
+
